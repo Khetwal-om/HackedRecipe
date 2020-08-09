@@ -1,0 +1,9 @@
+.FoodList {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px; 
+    width: 80%;
+    background: white;
+}

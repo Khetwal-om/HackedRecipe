@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+.FoodDetail {
+    width: 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 1px #ccc;  
+    padding: .8rem; 
+    margin: .4rem;
+    font-family: 'Baloo Tamma 2', sans-serif;
+
+} 
+
+
+.FoodDetail .image {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+
+.details {
+    width: 100%;
+    height: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    box-shadow: 0px -26px 10px 0px #fff;
+}
+
+.details h1 {
+    font-size: 1rem;
+}
+.price-label {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+
+.details p {
+    font-size: .8rem;
+}
